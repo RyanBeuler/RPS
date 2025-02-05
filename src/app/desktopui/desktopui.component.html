@@ -1,0 +1,16 @@
+<div id="headerbanner"><span class="noto-serif-hentaigana-font">How many times can you defeat AI at a game of...</span></div>
+<div id="gamebanner"><span class="noto-serif-hentaigana-font">ROCK  PAPER  SCISSORS</span></div>
+<div id="selection"><span class="noto-serif-hentaigana-font">?</span></div>
+<div id="selectionheader"><span class="noto-serif-hentaigana-font">Make your selection wisely</span></div>
+<!-- Container div with image links inside -->
+<div id="choices">
+    <div class="rock" (click)="rockEvent($event)"><a href=""><img src="../../assets/img/rock-64.png"></a></div>
+    <div class="paper" (click)="paperEvent($event)"><a href=""><img src="../../assets/img/paper-64.png"></a></div>
+    <div class="scissor" (click)="scissorEvent($event)"><a href=""><img src="../../assets/img/scissor-64.png"></a></div>
+</div>
+<div id="aiselection"><span class="noto-serif-hentaigana-font">?</span></div>
+<div id="aiselectionheader"><span class="noto-serif-hentaigana-font">AI selection</span></div>
+<div id="gameresults"><span class="noto-serif-hentaigana-font"></span></div>
+<div id="resultlog"><span class="noto-serif-hentaigana-font"></span></div>
+<div id="winlabel"><span class="noto-serif-hentaigana-font">Wins: {{wins}}</span></div>
+<div id="losslabel"><span class="noto-serif-hentaigana-font">Losses: {{losses}}</span></div>

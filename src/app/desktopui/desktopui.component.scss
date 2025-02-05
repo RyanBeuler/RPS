@@ -1,0 +1,217 @@
+/* ---- style for header banner text ---- */ 
+/* ---- top aligned in center of page ---- */ 
+#headerbanner{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.noto-serif-hentaigana-font {
+    font-family: "Noto Serif Hentaigana", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  #gamebanner{
+    position: relative;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    font-weight: 300;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#selection {
+    position: relative;
+    top: 150px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 10em;
+    font-weight: 900;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#selectionheader {
+    position: relative;
+    top: 150px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#choices {
+    position: relative;
+    top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.rock {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px; /* Optional margin between images */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.paper {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px; /* Optional margin between images */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.scissor {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px; /* Optional margin between images */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}   
+
+/* Styles for images */
+.rock img {
+    width: 64px;
+    height: 64px;
+    object-fit:scale-down; /* Ensures the image fits without distortion */
+  }
+
+  /* Styles for images */
+.paper img {
+    width: 64px;
+    height: 64px;
+    object-fit:scale-down; /* Ensures the image fits without distortion */
+  }
+
+  /* Styles for images */
+.scissor img {
+    width: 64px;
+    height: 64px;
+    object-fit:scale-down; /* Ensures the image fits without distortion */
+  }
+
+
+  #aiselectionheader {
+    position: relative;
+    top: 200px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#aiselection {
+    position: relative;
+    top: 210px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 10em;
+    font-weight: 900;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#gameresults {
+    position: relative;
+    top: 210px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#resultlog {
+    display: flex;
+    justify-content: center; /* Centers the images horizontally */
+    flex-wrap: wrap; /* Allow images to wrap to the next line if needed */
+    gap: 10px; /* Add 10px space between each image */
+    position: relative;
+    top: 220px;
+}
+
+#winlabel {
+    position: relative;
+    top: 230px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#losslabel {
+    position: relative;
+    top: 230px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
